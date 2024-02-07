@@ -1,0 +1,5 @@
+struct JoystickData {
+    sequence<long> buttonStates;
+    sequence<double> axisStates;
+    sequence<long> hatStates;
+};
